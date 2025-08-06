@@ -29,3 +29,8 @@ BiosMessenger/
 │── README.md # Documentation
 │── LICENSE # Optional License
 │── .gitignore
+
+⚙️ Installation & Setup
+1. Clone this repository:
+   git clone https://github.com/Mfigueira98/BiosMessenger.git
+   Developed by [Matías Figueira] https://www.linkedin.com/in/matias-figueira-a9733a226/
