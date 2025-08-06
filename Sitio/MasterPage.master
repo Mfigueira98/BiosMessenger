@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .body {
+            margin: 0;
+            min-height: 100vh;
+            width: 100%;
+        }
+        .auto-style5 {
+            height: 52px;
+            text-align: right;
+            width: 1388px;
+        }
+        .auto-style6 {
+            height: 52px;
+        }
+        </style>
+</head>
+<body style="height: 649px">
+    <form id="form1" runat="server">
+        <table class="auto-style1" >
+            <tr>
+                <td class="auto-style6">
+                    <asp:Menu ID="Menu1" runat="server" BorderStyle="None" Font-Bold="True" StaticSubMenuIndent="16px" style="font-family: 'Bahnschrift Condensed'; font-size: xx-large">
+                        <Items>
+                            <asp:MenuItem Text="Menú principal" Value="Menú principal">
+                                <asp:MenuItem NavigateUrl="~/PaginaPrincipal.aspx" Text="Inicio" Value="Inicio"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/BandejaDeEntrada.aspx" Text="Recibidos" Value="Recibidos"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/BandejaDeSalida.aspx" Text="Enviados" Value="Enviados"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/AltaMensajeComun.aspx" Text="Enviar Mensaje Comun" Value="Enviar Mensaje Comun"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/AltaMensajePrivado.aspx" Text="Enviar Mensaje Privado" Value="Enviar Mensaje Privado"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/AltaMensajeRecordatorio.aspx" Text="Enviar Mensaje Recordatorio" Value="Enviar Mensaje Recordatorio"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/ModificarContraseña.aspx" Text="Modificar Contraseña" Value="Modificar Contraseña"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/BajaUsuario.aspx" Text="Eliminar Usuario" Value="Eliminar Usuario"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td class="auto-style5">
+                    <asp:Label ID="lblUsuario" runat="server" ForeColor="Blue"></asp:Label>
+                    <br />
+                    <asp:Button ID="btnSalir" runat="server" Text="Cerrar sesión" OnClick="btnSalir_Click" BackColor="#DDEAF9" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2" colspan="2">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6" colspan="2">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
