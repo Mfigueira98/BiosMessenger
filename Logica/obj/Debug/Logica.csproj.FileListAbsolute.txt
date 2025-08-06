@@ -1,0 +1,11 @@
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\bin\Debug\Logica.dll
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\bin\Debug\Logica.pdb
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\bin\Debug\EC.dll
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\bin\Debug\Persistencia.dll
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\bin\Debug\EC.pdb
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\bin\Debug\Persistencia.pdb
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\obj\Debug\Logica.dll
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\Logica\obj\Debug\Logica.pdb

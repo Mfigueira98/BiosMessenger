@@ -1,0 +1,6 @@
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\EC\bin\Debug\EC.dll
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\EC\bin\Debug\EC.pdb
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\EC\obj\Debug\EC.csproj.CoreCompileInputs.cache
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\EC\obj\Debug\EC.dll
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\EC\obj\Debug\EC.pdb
+C:\Users\2023\Desktop\2 analista\Primer obligatorio\BiosMessenger\EC\obj\Debug\EC.csproj.AssemblyReference.cache
